@@ -809,34 +809,11 @@
         <!--Chat-->
         <scene sceneID="TOJ-UE-klk">
             <objects>
-                <viewController id="vRD-q0-htv" userLabel="Chat" sceneMemberID="viewController">
+                <viewController id="vRD-q0-htv" userLabel="Chat" customClass="ChatViewController" sceneMemberID="viewController">
                     <view key="view" id="NO1-6N-7JG" userLabel="Chat">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="306"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6OT-Jn-r1t">
-                                <rect key="frame" x="128" y="50" width="352" height="256"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="hkB-Xg-87L">
-                                    <rect key="frame" x="0.0" y="0.0" width="352" height="256"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="IAR-3c-Y2G">
-                                            <rect key="frame" x="0.0" y="0.0" width="352" height="256"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="352" height="256"/>
-                                            <size key="maxSize" width="352" height="10000000"/>
-                                            <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        </textView>
-                                    </subviews>
-                                </clipView>
-                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="sDv-fA-LaU">
-                                    <rect key="frame" x="336" y="0.0" width="16" height="256"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </scroller>
-                            </scrollView>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kW0-BL-lXt">
                                 <rect key="frame" x="128" y="20" width="272" height="22"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -854,8 +831,20 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KwC-qP-6Vd">
+                                <rect key="frame" x="128" y="50" width="348" height="251"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" drawsBackground="YES" id="1Fs-fW-WoL">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="ChatText" destination="KwC-qP-6Vd" id="stQ-hW-xA1"/>
+                    </connections>
                 </viewController>
                 <customObject id="xP3-df-Lwo" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

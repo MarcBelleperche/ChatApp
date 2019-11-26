@@ -13,10 +13,7 @@ namespace ClientChatApp
 	partial class ChatViewController
 	{
 		[Outlet]
-		AppKit.NSTextView ChatText { get; set; }
-
-		[Outlet]
-		AppKit.NSClipView ClipView { get; set; }
+		AppKit.NSTextField ChatText { get; set; }
 
 		[Outlet]
 		AppKit.NSTextField TextToSend { get; set; }
@@ -34,11 +31,6 @@ namespace ClientChatApp
 			if (TextToSend != null) {
 				TextToSend.Dispose ();
 				TextToSend = null;
-			}
-
-			if (ClipView != null) {
-				ClipView.Dispose ();
-				ClipView = null;
 			}
 		}
 	}

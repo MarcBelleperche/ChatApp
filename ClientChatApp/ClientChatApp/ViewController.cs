@@ -54,7 +54,7 @@ namespace ClientChatApp
                     {
                         client.Connect(ip, port);
                         Console.WriteLine("client connected!!");
-                        //ChatViewController chatView = new ChatViewController(client, name);
+                        ChatViewController chatView = new ChatViewController(client, name);
                     }
                     catch (SocketException)
                     {

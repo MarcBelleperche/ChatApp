@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict>
+		<key>2Om-6r-4MU</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>2Om-6r-4MU</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>B8D-0N-5wS</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>B8D-0N-5wS</string>
+				</array>
+				<key>message</key>
+				<string>???Window Controller??? is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>vRD-q0-htv</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>vRD-q0-htv</string>
+				</array>
+				<key>message</key>
+				<string>???Chat??? is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

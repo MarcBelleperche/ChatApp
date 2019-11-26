@@ -14,9 +14,15 @@ namespace ClientChatApp
     {
         TcpClient client;
         string name;
+        string s = "";
+        NetworkStream ns;
+        StreamWriter sW;
+
         // Called when created from unmanaged code
+
         public ChatViewController(IntPtr handle) : base(handle)
         {
+
         }
 
         public ChatViewController(TcpClient client, string name)
@@ -26,11 +32,12 @@ namespace ClientChatApp
         }
 
         // Called when created directly from a XIB file
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            NetworkStream ns = client.GetStream();
-            StreamWriter sW = new StreamWriter(client.GetStream());
+            ns = client.GetStream();
+            sW = new StreamWriter(client.GetStream());
             sW.AutoFlush = true;
 
             //StreamReader sR = new StreamReader(client.GetStream());
@@ -42,23 +49,29 @@ namespace ClientChatApp
             //sW.WriteLine(channel);
             // Send the username
 
-            sW.WriteLine(name);
-            Thread thread = new Thread(o => ReceiveData((TcpClient)o));
+
+            Thread thread = new Thread(o => ReceiveData((TcpClient)o,ChatText));
 
 
             thread.Start(client);
 
-            string s;
-            while (!string.IsNullOrEmpty((s = Console.ReadLine())))
+            //string s;
+            //while (!string.IsNullOrEmpty((s = Console.ReadLine())))
+            //{
+            //    byte[] buffer = Encoding.ASCII.GetBytes(s);
+            //    ns.Write(buffer, 0, size: buffer.Length);
+            //}
+
+            while (s != "exit")
             {
-                byte[] buffer = Encoding.ASCII.GetBytes(s);
-                ns.Write(buffer, 0, size: buffer.Length);
+
             }
 
             client.Client.Shutdown(SocketShutdown.Send);
             thread.Join();
             ns.Close();
             client.Close();
+            
             // Do any additional setup after loading the view.
         }
 
@@ -75,7 +88,7 @@ namespace ClientChatApp
             }
         }
 
-        static void ReceiveData(TcpClient client)
+        static void ReceiveData(TcpClient client, NSTextField chat)
         {
             NetworkStream ns = client.GetStream();
             byte[] receivedBytes = new byte[1024];
@@ -83,10 +96,19 @@ namespace ClientChatApp
 
             while ((byte_count = ns.Read(receivedBytes, 0, receivedBytes.Length)) > 0)
             {
-                Console.Write(Encoding.ASCII.GetString(receivedBytes, 0, byte_count));
-                
+                //Console.Write(Encoding.ASCII.GetString(receivedBytes, 0, byte_count));
+                chat.StringValue += Encoding.ASCII.GetString(receivedBytes, 0, byte_count)+"\n";
             }
         }
+
+        partial void SendText(Foundation.NSObject sender)
+        {
+            sW.WriteLine(name);
+            byte[] buffer = Encoding.ASCII.GetBytes(TextToSend.StringValue);
+            ns.Write(buffer, 0, size: buffer.Length);
+            s = TextToSend.StringValue;
+        }
+
     }
-   
+
 }
