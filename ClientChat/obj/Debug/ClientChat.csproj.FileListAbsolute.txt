@@ -1,0 +1,5 @@
+/Users/marcbelleperche/Desktop/Semester 7/C#/ChatApp/ClientChat/bin/Debug/ClientChat.exe
+/Users/marcbelleperche/Desktop/Semester 7/C#/ChatApp/ClientChat/bin/Debug/ClientChat.pdb
+/Users/marcbelleperche/Desktop/Semester 7/C#/ChatApp/ClientChat/obj/Debug/ClientChat.csprojAssemblyReference.cache
+/Users/marcbelleperche/Desktop/Semester 7/C#/ChatApp/ClientChat/obj/Debug/ClientChat.exe
+/Users/marcbelleperche/Desktop/Semester 7/C#/ChatApp/ClientChat/obj/Debug/ClientChat.pdb
