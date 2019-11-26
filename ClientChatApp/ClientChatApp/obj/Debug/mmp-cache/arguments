@@ -1,0 +1,21 @@
+# Version: 6.6.0.12 (xcode11.2): e3c2b406d)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.Mac.framework/Versions/6.6.0.12/lib/mmp/mmp.exe
+/Library/Frameworks/Xamarin.Mac.framework/Versions/6.6.0.12/lib/mmp/mmp.exe \
+	/verbose \
+	' /debug' \
+	'\"/output:/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/bin/Debug/\"' \
+	/name:ClientChatApp \
+	' /profile:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
+	' /arch:x86_64' \
+	' --http-message-handler=HttpClientHandler' \
+	' /minos=10.14' \
+	' /nolink' \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Facades/System.Drawing.Common.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	'\"/root-assembly:/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/bin/Debug/ClientChatApp.exe\"' \
+	/sdkroot:/Applications/Xcode.app/Contents/Developer \
+	'\"--cache:/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/mmp-cache\"' \
+	'@/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/response-file.rsp' \

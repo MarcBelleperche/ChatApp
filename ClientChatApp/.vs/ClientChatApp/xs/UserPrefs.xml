@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{6FC288B0-2214-4564-8798-147F554077E1}|Default">
+  <MonoDevelop.Ide.ItemProperties.ClientChatApp PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClientChatApp/ChatViewController.cs">
+    <Files>
+      <File FileName="ClientChatApp/ViewController.cs" Line="57" Column="27" />
+      <File FileName="ClientChatApp/ViewController.designer.cs" />
+      <File FileName="ClientChatApp/Main.cs" />
+      <File FileName="ClientChatApp/Clients.cs" />
+      <File FileName="ClientChatApp/Client.cs" />
+      <File FileName="ClientChatApp/Main.storyboard" />
+      <File FileName="ClientChatApp/SecondViewController.cs" />
+      <File FileName="ClientChatApp/SecondViewController.designer.cs" />
+      <File FileName="ClientChatApp/Channel.cs" />
+      <File FileName="ClientChatApp/Channels.cs" />
+      <File FileName="ClientChatApp/ChatViewController.cs" Line="90" Column="6" />
+      <File FileName="ClientChatApp/ChatViewController.designer.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClientChatApp" expanded="True">
+            <Node name="ClientChatApp" expanded="True">
+              <Node name="ChatViewController.cs" expanded="True" selected="True" />
+              <Node name="SecondViewController.cs" expanded="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

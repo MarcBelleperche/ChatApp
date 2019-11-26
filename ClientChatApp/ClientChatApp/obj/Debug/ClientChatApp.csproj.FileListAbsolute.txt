@@ -1,0 +1,14 @@
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/bin/Debug/ClientChatApp.exe
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/bin/Debug/ClientChatApp.pdb
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/actool/_PartialAppManifest.items
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ClientChatApp.csprojAssemblyReference.cache
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ClientChatApp.exe
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ClientChatApp.pdb
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/P3e-Yn-pbO-view-WQm-xX-Yxr.nib
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/NSViewController-P3e-Yn-pbO.nib
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/ibtool/Main.storyboardc/NSViewController-XfG-lQ-9wD.nib
