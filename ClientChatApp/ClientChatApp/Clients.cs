@@ -38,9 +38,9 @@ namespace ClientChatApp
             return c;
         }
 
-        public string checkclients(string username, string psw, NSTextField print)
+        public Client checkclients(string username, string psw, NSTextField print)
         {
-            string name = null;
+            Client current = null;
             int find = 0;
             foreach (Client clients in _clients)
             {
@@ -49,7 +49,7 @@ namespace ClientChatApp
                     if (clients._password == psw)
                     {
                         find = 1;
-                        name = clients._name;
+                        current = clients;
                         break;
                     }
                     else
@@ -83,7 +83,7 @@ namespace ClientChatApp
                 print.StringValue = "You are not registered !";
             }
 
-            return name;
+            return current;
         }
 
 

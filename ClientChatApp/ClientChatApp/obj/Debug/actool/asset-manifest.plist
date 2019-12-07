@@ -6,9 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/actool/bundle/AppIcon.icns</string>
-			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/actool/bundle/Assets.car</string>
-			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/ClientChatApp/ClientChatApp/obj/Debug/actool/partial-info.plist</string>
+			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/C#_Chat_Application/ChatApp/ClientChatApp/ClientChatApp/obj/Debug/actool/bundle/AppIcon.icns</string>
+			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/C#_Chat_Application/ChatApp/ClientChatApp/ClientChatApp/obj/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/marcbelleperche/Desktop/Semester 7/C#/C#_Chat_Application/ChatApp/ClientChatApp/ClientChatApp/obj/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>

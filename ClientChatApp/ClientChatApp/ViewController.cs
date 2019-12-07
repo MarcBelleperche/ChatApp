@@ -41,8 +41,8 @@ namespace ClientChatApp
         }
         partial void login(NSObject sender)
         {
-            string name = Login();
-            if (name != null)
+            Client currentclient = Login();
+            if (currentclient != null)
             {
                 IPAddress ip = IPAddress.Parse("127.0.0.1");
                 int port = 5000;
@@ -54,7 +54,7 @@ namespace ClientChatApp
                     {
                         client.Connect(ip, port);
                         Console.WriteLine("client connected!!");
-                        ChatViewController chatView = new ChatViewController(client, name);
+                        //ChatViewController chatView = new ChatViewController(currentclient);
                     }
                     catch (SocketException)
                     {
@@ -72,12 +72,12 @@ namespace ClientChatApp
 
         }
 
-        public string Login()
+        public Client Login()
         {
             //addlcient._clients.Add(new Client(username.StringValue, null));
             //Clients check = new Clients();
             //Clients list = check.deserialize();
-            string use = "";
+            Client use = null;
             Clients c = Clients.deserialize();
             //Console.WriteLine("Enter your username :");
             string user_name = username.StringValue;
